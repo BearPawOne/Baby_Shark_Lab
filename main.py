@@ -1,5 +1,5 @@
 """----------------------------------------------------------------
-Name:       your name
+Name:       Alex Chopra
 Assignment: Lab - Baby Shark
 Course:     CS 1430, Section X, Fall 2026
 Purpose:    This program is designed to be practice for Python
@@ -25,10 +25,10 @@ Output: The sound Baby Shark, with three verses:
 REPEAT = 3
 
 def shark_verse(shark_type):
-    for n in range(REPEAT):
-        print(shark_type, " Shark,")
+    for _ in range(REPEAT):
+        print(shark_type, "Shark,")
         print("doo-doo-doo-do-do-do-do")
-    print(shark_type, "Shark")
+    print(shark_type, "Shark!")
         
 
 def main():
