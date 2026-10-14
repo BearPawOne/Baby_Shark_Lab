@@ -24,29 +24,17 @@ Output: The sound Baby Shark, with three verses:
 ##############
 REPEAT = 3
 
+def shark_verse(shark_type):
+    for n in range(REPEAT):
+        print(shark_type, " Shark,")
+        print("doo-doo-doo-do-do-do-do")
+    print(shark_type, "Shark")
+        
 
 def main():
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark!")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark!")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark!")
+    shark_verse("Baby")
+    shark_verse("Mommy")
+    shark_verse("Daddy")
 
 
 if __name__ == "__main__":
